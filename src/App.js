@@ -6,6 +6,7 @@ import Experience from "./Components/Experience";
 import Skills from "./Components/Skills";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Contact from "./Components/Contact";
 
 
 
@@ -19,8 +20,9 @@ function App() {
 
          <Route exact path="/" element={<Home />} />
          <Route exact path="/about" element={<About />} />
+         <Route exact path="/contact" element={<Contact />} />
          <Route exact path="/education" element={<Education />} />
-         <Route exact path="/experience" element={<Experience />} />
+         <Route exact path="/project" element={<Experience />} />
          <Route exact path="/skills" element={<Skills />} />
          
        </Routes>

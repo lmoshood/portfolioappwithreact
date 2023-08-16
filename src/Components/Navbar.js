@@ -13,20 +13,22 @@
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/#home">Home</a>
+          <a className="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/#about">Link</a>
-        </li>
-        
-        <li className="nav-item">
-          <a className="nav-link" href="/#education">Education</a>
+          <a className="nav-link" href="/about">About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/#project">Experience</a>
+          <a className="nav-link" href="/contact">Contact</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/#skills">Skills</a>
+          <a className="nav-link" href="/education">Education</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/project">Experience</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/skills">Skills</a>
         </li>
       </ul>
       <form className="d-flex" role="search">
